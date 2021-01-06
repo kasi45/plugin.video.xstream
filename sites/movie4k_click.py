@@ -7,7 +7,7 @@ from resources.lib.gui.gui import cGui
 
 SITE_IDENTIFIER = 'movie4k_click'
 SITE_NAME = 'Movie4k Click'
-SITE_ICON = 'movie4k_click.png'
+#SITE_ICON = 'movie4k_click.png'
 
 URL_MAIN = 'https://movie4k.click/'
 URL_KINO = URL_MAIN + 'aktuelle-kinofilme-im-kino/'

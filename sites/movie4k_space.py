@@ -7,7 +7,7 @@ from resources.lib.gui.gui import cGui
 
 SITE_IDENTIFIER = 'movie4k_space'
 SITE_NAME = 'Movie4k Space'
-SITE_ICON = 'movie4k_space.png'
+#SITE_ICON = 'movie4k_space.png'
 URL_MAIN = 'https://movie4k.space'
 URL_FILME = URL_MAIN + '/filme'
 URL_SEARCH = URL_MAIN + '/search/?search=%s'

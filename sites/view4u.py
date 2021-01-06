@@ -7,7 +7,7 @@ from resources.lib.gui.gui import cGui
 
 SITE_IDENTIFIER = 'view4u'
 SITE_NAME = 'View4u'
-SITE_ICON = 'view4u.png'
+#SITE_ICON = 'view4u.png'
 URL_MAIN = 'https://view4u.cc/'
 URL_FILME = URL_MAIN + 'filme/'
 URL_KINO = URL_MAIN + 'kinofilme/'

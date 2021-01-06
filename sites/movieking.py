@@ -7,7 +7,7 @@ from resources.lib.gui.gui import cGui
 
 SITE_IDENTIFIER = 'movieking'
 SITE_NAME = 'MovieKing'
-SITE_ICON = 'movieking.png'
+#SITE_ICON = 'movieking.png'
 URL_MAIN = 'https://movieking.cc/'
 URL_FILME = URL_MAIN + 'movies.html'
 URL_SEARCH = URL_MAIN + 'search?q=%s'

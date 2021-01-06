@@ -7,7 +7,7 @@ from resources.lib.gui.gui import cGui
 
 SITE_IDENTIFIER = 'streamworld'
 SITE_NAME = 'Streamworld'
-SITE_ICON = 'streamworld.png'
+#SITE_ICON = 'streamworld.png'
 URL_MAIN = 'https://streamworld.in/'
 URL_ANI = URL_MAIN + 'animationfilm/'
 URL_SEARCH = URL_MAIN

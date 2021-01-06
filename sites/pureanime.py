@@ -7,7 +7,7 @@ from resources.lib.gui.gui import cGui
 
 SITE_IDENTIFIER = 'pureanime'
 SITE_NAME = 'Pureanime'
-SITE_ICON = 'pureanime.png'
+#SITE_ICON = 'pureanime.png'
 SITE_SETTINGS = '<setting id="pureanime.user" type="text" label="30083" default="" /><setting id="pureanime.pass" type="text" option="hidden" label="30084" default="" />'
 SITE_GLOBAL_SEARCH = False
 URL_MAIN = 'https://pure-anime.net/'

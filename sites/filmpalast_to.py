@@ -7,7 +7,7 @@ from resources.lib.gui.gui import cGui
 
 SITE_IDENTIFIER = 'filmpalast_to'
 SITE_NAME = 'FilmPalast'
-SITE_ICON = 'filmpalast_to.png'
+#SITE_ICON = 'filmpalast_to.png'
 URL_MAIN = 'https://filmpalast.to'
 URL_MOVIES = URL_MAIN + '/movies/new'
 URL_SHOWS = URL_MAIN + '/serien/view'

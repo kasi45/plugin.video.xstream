@@ -7,7 +7,7 @@ from resources.lib.gui.gui import cGui
 
 SITE_IDENTIFIER = 'dokus4'
 SITE_NAME = 'Dokus4'
-SITE_ICON = 'dokus4.png'
+#SITE_ICON = 'dokus4.png'
 SITE_GLOBAL_SEARCH = False
 URL_MAIN = 'http://www.dokus4.me/'
 URL_SEARCH = URL_MAIN + '?s=%s'
