@@ -10,6 +10,7 @@ try:
 except ImportError:
     from urllib.parse import quote_plus, urlencode
 
+from os import path
 
 class cGui:
     # This class "abstracts" a list of xbmc listitems.
@@ -80,6 +81,7 @@ class cGui:
         if infoString:
             infoString = '[I]%s[/I]' % infoString
         itemValues['title'] = itemTitle + infoString
+        itemValues['plot'] = ' ' # Alt 255
         '''
         # kodi 19 funktioniert nicht
         listitem = xbmcgui.ListItem(itemTitle + infoString, oGuiElement.getTitleSecond(), oGuiElement.getIcon(), oGuiElement.getThumbnail())
@@ -87,7 +89,12 @@ class cGui:
         listitem = xbmcgui.ListItem(itemTitle + infoString, oGuiElement.getIcon(), oGuiElement.getThumbnail())
         listitem.setInfo(oGuiElement.getType(), itemValues)
         listitem.setProperty('fanart_image', oGuiElement.getFanart())
-        listitem.setArt({'poster': oGuiElement.getThumbnail()})
+
+        if oGuiElement.getThumbnail() == '':
+            poster = path.join(common.addonPath, 'resources', 'art', 'sites', oGuiElement.getSiteName() + '.png')
+            listitem.setArt({'poster': poster})
+        else:
+            listitem.setArt({'poster': oGuiElement.getThumbnail()})
         aProperties = oGuiElement.getItemProperties()
         if len(aProperties) > 0:
             for sPropertyKey in aProperties.keys():
