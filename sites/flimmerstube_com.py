@@ -7,7 +7,7 @@ from resources.lib.gui.gui import cGui
 
 SITE_IDENTIFIER = 'flimmerstube_com'
 SITE_NAME = 'Flimmerstube'
-SITE_ICON = 'flimmerstube.png'
+SITE_ICON = 'flimmerstube_com.png'
 URL_MAIN = 'http://flimmerstube.com'
 URL_MOVIE = URL_MAIN + '/video/vic/alle_filme'
 URL_SEARCH = URL_MAIN + '/video/shv'

@@ -9,7 +9,7 @@ import json
 
 SITE_IDENTIFIER = 'netzkino_de'
 SITE_NAME = 'NetzKino'
-SITE_ICON = 'netzkino.png'
+SITE_ICON = 'netzkino_de.png'
 URL_MAIN = 'http://api.netzkino.de.simplecache.net/capi-2.0a/categories/%s.json?d=www&l=de-DE&v=unknown'
 URL_SEARCH = 'http://api.netzkino.de.simplecache.net/capi-2.0a/search?q=%s&d=www&l=de-DE&v=unknown'
 

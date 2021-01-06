@@ -7,7 +7,7 @@ from resources.lib.gui.gui import cGui
 
 SITE_IDENTIFIER = 'movietown_org'
 SITE_NAME = 'MovieTown'
-SITE_ICON = 'movietown.png'
+SITE_ICON = 'movietown_org.png'
 URL_MAIN = 'https://movietown.org/'
 URL_LIST = URL_MAIN + 'secure/titles?type=%s&page=%s&perPage=25&genre=%s'
 URL_GET = URL_MAIN + 'secure/titles/%s?titleId=%s'

@@ -7,7 +7,7 @@ from resources.lib.gui.gui import cGui
 
 SITE_IDENTIFIER = 'hd-streams_org'
 SITE_NAME = 'HD-Streams.org'
-SITE_ICON = 'hdstreams_org.png'
+SITE_ICON = 'hd-streams_org.png'
 URL_MAIN = 'https://hd-streams.org/'
 URL_FILME = URL_MAIN + 'movies?perPage=54'
 URL_SERIE = URL_MAIN + 'seasons?perPage=54'
